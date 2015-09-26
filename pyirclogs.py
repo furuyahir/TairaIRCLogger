@@ -10,9 +10,9 @@ name = 'Tairabot'
 password = ''
 
 if os.name == 'nt':
-    LOG_PATH = 'C:/Users/furuy_000/Documents/IRC/logs'
+    LOG_PATH = 'logs/'
 else:
-    LOG_PATH = '/path/to/logs/'
+    LOG_PATH = 'logs/'
 
 
 __author__ = "Tairabox used pyirclogs look it up"
